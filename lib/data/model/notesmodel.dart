@@ -15,12 +15,12 @@ class NotesModel {
       this.notesCreate});
 
   NotesModel.fromJson(Map<String, dynamic> json) {
-    notesId = json['notes_id'];
-    notesTitle = json['notes_title'];
-    notesNote = json['notes_note'];
-    notesUser = json['notes_user'];
-    notesColor = json['notes_color'];
-    notesCreate = json['notes_create'];
+    notesId = json['notes_id'].toString();
+    notesTitle = json['notes_title'].toString();
+    notesNote = json['notes_note'].toString();
+    notesUser = json['notes_user'].toString();
+    notesColor = json['notes_color'].toString();
+    notesCreate = json['notes_create'].toString();
   }
 
   Map<String, dynamic> toJson() {

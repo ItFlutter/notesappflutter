@@ -29,7 +29,7 @@ class LoginController extends SharedStatusCode {
         if (response['status'] == 'success') {
           Get.offAllNamed(AppRoute.homepage);
           myServices.sharedPreferences
-              .setString("id", response['data']['users_id']);
+              .setString("id", response['data']['users_id'].toString());
         } else {
           // statusRequest = StatusRequest.failure;
           return Get.defaultDialog(
