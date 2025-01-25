@@ -1,7 +1,7 @@
 class AppLink {
   //===========================SERVER=================================
-  // static const String server = "http://192.168.1.109/notesapp";
-  static const String server = "https://notesappit.000webhostapp.com/notesapp";
+  static const String server = "http://192.168.1.108/notesapp";
+  // static const String server = "https://notesappit.000webhostapp.com/notesapp";
   //===========================AUTH=================================
   static const String login = "$server/auth/login.php";
   static const String signup = "$server/auth/signup.php";

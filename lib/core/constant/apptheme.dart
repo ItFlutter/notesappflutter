@@ -5,6 +5,7 @@ ThemeData? theme = ThemeData(
     appBarTheme:
         const AppBarTheme(backgroundColor: Colors.transparent, elevation: 0.0),
     canvasColor: AppColor.backgroundColor,
+    scaffoldBackgroundColor: AppColor.backgroundColor,
     fontFamily: "Nunito",
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
         backgroundColor: Color(0xff151515)));
